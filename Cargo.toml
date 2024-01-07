@@ -6,8 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# av-format = "0.7.0"
 glam = "0.25.0"
 ivf = "0.1.1"
+matroska.git = "https://github.com/rust-av/matroska"
+av-data.git = "https://github.com/rust-av/rust-av"
+av-format.git = "https://github.com/rust-av/rust-av"
+mp4.path = "../mp4-rust"
 ndarray = "0.15.6"
 rand = "0.8.5"
 rav1e = "0.7.0"
